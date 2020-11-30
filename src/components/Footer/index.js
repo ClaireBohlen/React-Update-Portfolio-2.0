@@ -1,18 +1,19 @@
 import React from 'react';
 import {
-    FooterContainer.
+    FooterContainer,
     FooterWrap,
     FooterLinksContainer,
     FooterLinkItems,
     FooterLinkTitle,
     FooterLink,
-    SocailMediaWrap
+    SocailMediaWrap,
+    FooterLinksWrapper
 } from "./FooterElements"
 
 const Footer = () => {
-    const toggleHome = () => {
-        scroll.scrollToTop();
-      };
+    // const toggleHome = () => {
+    //     scroll.scrollToTop();
+    //   };
     return (
         
         <div>
@@ -23,9 +24,9 @@ const Footer = () => {
                         <FooterLinksWrapper>
                             <FooterLinkItems>
                                 <FooterLinkTitle> Socials</FooterLinkTitle>
-                                <FooterLink>Github</FooterLink>
-                                <FooterLink>LinkedIn</FooterLink>
-                                <FooterLink>Codepen</FooterLink>
+                                <FooterLink to="/">Github</FooterLink>
+                                <FooterLink to="/">LinkedIn</FooterLink>
+                                <FooterLink to="/">Codepen</FooterLink>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>

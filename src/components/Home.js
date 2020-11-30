@@ -6,6 +6,7 @@ import AboutSection from "./AboutSection";
 import { homeObjOne } from "./AboutSection/data";
 import Projects from "./Projects";
 import { homeObjTwo } from "./AboutSection/data";
+import Footer from "./Footer"
 
 
 
@@ -27,6 +28,7 @@ function Home (){
             <AboutSection {...homeObjOne}/>
             <Projects />
             <AboutSection {...homeObjTwo} />
+            <Footer/>
 
 
 

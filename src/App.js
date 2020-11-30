@@ -10,10 +10,7 @@ function App() {
     <>
       <Router>
         <Home/>
-        {/* <Home/>
-        <Projects/>
-        <About/>
-        <Connect/> */}
+        
       </Router>
 
     </>
