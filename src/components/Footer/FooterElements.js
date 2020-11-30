@@ -62,11 +62,19 @@ export const FooterLink = styled.div`
     }
 `
 export const SocailMediaWrap = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 40px auto 0 auto;
 
+    @media screen and (max-width: 820px){
+        flex-direction: column;
+    }
 `
-export const FooterContainer = styled.div`
+// export const FooterContainer = styled.div`
 
-`
-export const FooterContainer = styled.div`
+// `
+// export const FooterContainer = styled.div`
 
 `
