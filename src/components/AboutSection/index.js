@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElement'
+import Image from "../../images/svg-1.svg"
 import {
 AboutContainer,
 AboutWrapper,
@@ -35,7 +36,7 @@ const AboutSection = ({lightBg, imgStart, id, topLine, lightText, headline, dark
                         </Colum1>
                         <Colum2>
                             <ImgWrap>
-                                <Img src={img} alt={alt}/>
+                                <Img src={Image} alt={alt}/>
                             </ImgWrap>
                         </Colum2>
                     </AboutRow>

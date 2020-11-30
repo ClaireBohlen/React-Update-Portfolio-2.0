@@ -10,7 +10,7 @@ export const homeObjOne = {
     description: "khjbg'orugnWOGJN RWgjgbsfg ouagodfjbgv",
     buttonLabel: "Connect with Me!",
     imgStart: false,
-    img: require("../../images/svg-1.svg"),
+    img: require ("../../images/svg-1.svg"),
     alt: "Backend Engineer Symbol",
     dark: true,
     primary: true,

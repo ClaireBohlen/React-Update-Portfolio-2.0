@@ -13,24 +13,24 @@ function Home (){
 
     const toggle = () => {
         setIsOpen(!isOpen)
-    }
+    };
 
 
 
 
     return (
-        <div>
+        <>
             <SideBar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
             <Hero/>
             <AboutSection {...homeObjOne}/>
-            <Projects/>
+            <Projects />
 
 
 
 
 
-        </div>
+        </>
     )
 }
 

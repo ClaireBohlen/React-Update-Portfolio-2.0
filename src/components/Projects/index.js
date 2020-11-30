@@ -15,7 +15,7 @@ import {
 const Projects = () => {
   return (
     <ProjectsContainer id='Projects'>
-      <ProjectsH1>Our Projects</ProjectsH1>
+      <ProjectsH1></ProjectsH1>
       <ProjectsWrapper>
         <ProjectsCard>
           <ProjectsIcon src={Icon1} />
@@ -36,6 +36,27 @@ const Projects = () => {
           <ProjectsH2>Premium Benefits</ProjectsH2>
           <ProjectsP>
             Unlock our special membership card that returns 5% cash back.
+          </ProjectsP>
+        </ProjectsCard>
+        <ProjectsCard>
+          <ProjectsIcon src={Icon1} />
+          <ProjectsH2>Reduce Expenses</ProjectsH2>
+          <ProjectsP>
+            We help reduce your fees and increase your overall revenue.
+          </ProjectsP>
+        </ProjectsCard>
+        <ProjectsCard>
+          <ProjectsIcon src={Icon1} />
+          <ProjectsH2>Reduce Expenses</ProjectsH2>
+          <ProjectsP>
+            We help reduce your fees and increase your overall revenue.
+          </ProjectsP>
+        </ProjectsCard>
+        <ProjectsCard>
+          <ProjectsIcon src={Icon1} />
+          <ProjectsH2>Reduce Expenses</ProjectsH2>
+          <ProjectsP>
+            We help reduce your fees and increase your overall revenue.
           </ProjectsP>
         </ProjectsCard>
       </ProjectsWrapper>
