@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const FooterContainer = styled.footer`
     background-color: #101522;
 `
@@ -71,10 +72,4 @@ export const SocailMediaWrap = styled.div`
     @media screen and (max-width: 820px){
         flex-direction: column;
     }
-`
-// export const FooterContainer = styled.div`
-
-// `
-// export const FooterContainer = styled.div`
-
 `

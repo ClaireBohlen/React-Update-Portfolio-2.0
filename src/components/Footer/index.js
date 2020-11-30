@@ -1,4 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {
+    FooterContainer.
+    FooterWrap,
+    FooterLinksContainer,
+    FooterLinkItems,
+    FooterLinkTitle,
+    FooterLink,
+    SocailMediaWrap
+} from "./FooterElements"
 
 const Footer = () => {
     const toggleHome = () => {
@@ -21,7 +30,7 @@ const Footer = () => {
                         </FooterLinksWrapper>
                     </FooterLinksContainer>
                     <SocailMediaWrap>
-                        
+
                     </SocailMediaWrap>
                 </FooterWrap>
                 
