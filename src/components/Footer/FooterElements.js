@@ -49,8 +49,17 @@ export const FooterLinkTitle = styled.h1`
     font-size: 14px;
     margin-bottom: 16px;
 `
-export const FooterFooterLink = styled.div`
+export const FooterLink = styled.div`
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
 
+    &:hover{
+        color: #01bf71;
+        transition: 0.3s ease-out;
+
+    }
 `
 export const SocailMediaWrap = styled.div`
 
