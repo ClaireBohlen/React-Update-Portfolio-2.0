@@ -11,10 +11,11 @@ export const FooterWrap = styled.div`
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
-    
+
 `
 export const FooterLinksContainer = styled.div`
-
+    display: flex;
+    justify-content: center;
 `
 export const FooterLinksWrapper = styled.div`
 
