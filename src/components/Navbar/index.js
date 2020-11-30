@@ -11,8 +11,10 @@ import {
   NavLogo,
   NavMenu,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  NavLogoImg
 } from './NavbarElements';
+import Logo from "../../images/Bear.svg"
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -38,14 +40,15 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo onClick={toggleHome} to='/'>
-              Bear
+            <NavLogo  onClick={toggleHome} to='/'>
+              {/* <img src={Logo} alt="bear-logo"/> */}
+              <NavLogoImg src={Logo} alt="bear-logo"/>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
             <NavMenu>
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks onClcik = {toggleHome}
                   to="/"
                   smooth={true}
@@ -56,7 +59,7 @@ const Navbar = ({ toggle }) => {
                 >
                   Home
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLinks
                   to='About'

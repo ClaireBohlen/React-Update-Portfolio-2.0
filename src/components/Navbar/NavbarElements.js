@@ -115,3 +115,10 @@ export const NavBtnLink = styled(LinkR)`
 
     }
 `
+export const NavLogoImg = styled.img`
+    margin-top: 10px;
+    margin-bottom: 12px;
+    height: auto;
+    width: 50px;
+
+`
