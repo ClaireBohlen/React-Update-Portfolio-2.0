@@ -3,6 +3,7 @@ import SideBar from "./SideBar";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import AboutSection from "./AboutSection";
+import { homeObjOne } from "./AboutSection/data";
 
 
 
@@ -21,7 +22,7 @@ function Home (){
             <SideBar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
             <Hero/>
-            <AboutSection/>
+            <AboutSection {...homeObjOne}/>
 
 
 
