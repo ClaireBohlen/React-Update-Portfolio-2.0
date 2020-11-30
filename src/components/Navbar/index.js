@@ -46,8 +46,8 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks
-                  to='Home'
+                <NavLinks onClcik = {toggleHome}
+                  to="/"
                   smooth={true}
                   duration={500}
                   spy={true}

@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import AboutSection from "./AboutSection";
 import { homeObjOne } from "./AboutSection/data";
 import Projects from "./Projects";
+import { homeObjTwo } from "./AboutSection/data";
 
 
 
@@ -25,6 +26,7 @@ function Home (){
             <Hero/>
             <AboutSection {...homeObjOne}/>
             <Projects />
+            <AboutSection {...homeObjTwo} />
 
 
 
