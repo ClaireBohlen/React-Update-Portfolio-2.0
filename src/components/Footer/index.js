@@ -20,6 +20,9 @@ const Footer = () => {
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>
+                    <SocailMediaWrap>
+                        
+                    </SocailMediaWrap>
                 </FooterWrap>
                 
             </FooterContainer>
