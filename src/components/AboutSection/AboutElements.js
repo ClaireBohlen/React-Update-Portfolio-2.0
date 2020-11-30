@@ -94,13 +94,13 @@ export const BtnWrap = styled.div `
 
 export const ImgWrap = styled.div `
     max-width: 555px;
-    height: 100%auto;
+    height: 100% auto;
 `
 
-export const Img = styled.div ` 
+export const Img = styled.img ` 
     padding-right: 0;
     margin: 0 0 10px 0;
-    width: 100%auto;
+    width: 100% auto;
 `
 
 

@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import AboutSection from "./AboutSection";
 import { homeObjOne } from "./AboutSection/data";
+import Projects from "./Projects";
 
 
 
@@ -23,6 +24,7 @@ function Home (){
             <Navbar toggle={toggle}/>
             <Hero/>
             <AboutSection {...homeObjOne}/>
+            <Projects/>
 
 
 

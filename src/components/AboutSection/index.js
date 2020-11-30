@@ -12,11 +12,12 @@ Heading,
 SubTitle,
 BtnWrap,
 ImgWrap,
-Img
+Img,
 
 } from "./AboutElements"
 
-const AboutSection = (lightBg, imgStart, id, topLine, lightText, headline, darkText, description, buttonLabel, img, alt) => {
+
+const AboutSection = ({lightBg, imgStart, id, topLine, lightText, headline, darkText, description, buttonLabel, img, alt}) => {
     return (
         <div>
             <AboutContainer lightBg={lightBg} id={id}>

@@ -11,7 +11,7 @@ export const Nav = styled.nav `
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: stickey;
+    position: sticky;
     top: 0;
     z-index: 10;
 
@@ -42,7 +42,7 @@ export const NavLogo = styled(LinkR) `
 `
 
 export const MobileIcon = styled.div `
-    // display: none;
+     display: none;
 
     @media screen and (max-width: 768px) {
         display: block;

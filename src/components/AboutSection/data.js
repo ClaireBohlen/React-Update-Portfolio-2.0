@@ -1,3 +1,5 @@
+
+
 export const homeObjOne = {
     id: "About",
     lightBg: false,
@@ -5,10 +7,10 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: "About Me:",
     headline: "Claire Bohlen",
-    descriptiom: "khjbg'orugnWOGJN RWgjgbsfg ouagodfjbgv",
+    description: "khjbg'orugnWOGJN RWgjgbsfg ouagodfjbgv",
     buttonLabel: "Connect with Me!",
     imgStart: false,
-    img: require("../../assests/images/backend.svg"),
+    img: require("../../images/svg-1.svg"),
     alt: "Backend Engineer Symbol",
     dark: true,
     primary: true,
