@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.fad79206.chunk.css",
-    "main.js": "/static/js/main.3a94f138.chunk.js",
-    "main.js.map": "/static/js/main.3a94f138.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b7452367.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b7452367.js.map",
-    "static/js/2.b9e550cc.chunk.js": "/static/js/2.b9e550cc.chunk.js",
-    "static/js/2.b9e550cc.chunk.js.map": "/static/js/2.b9e550cc.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.fad79206.chunk.css.map": "/static/css/main.fad79206.chunk.css.map",
-    "static/js/2.b9e550cc.chunk.js.LICENSE.txt": "/static/js/2.b9e550cc.chunk.js.LICENSE.txt",
-    "static/media/Bear.efdde29a.svg": "/static/media/Bear.efdde29a.svg",
-    "static/media/svg-1.svg": "/static/media/svg-1.198c8835.svg",
-    "static/media/svg-10.483fff52.svg": "/static/media/svg-10.483fff52.svg",
-    "static/media/svg-11.a416ef44.svg": "/static/media/svg-11.a416ef44.svg",
-    "static/media/svg-12.c9acc4f5.svg": "/static/media/svg-12.c9acc4f5.svg",
-    "static/media/svg-2.svg": "/static/media/svg-2.5f11287c.svg",
-    "static/media/svg-7.7255997b.svg": "/static/media/svg-7.7255997b.svg",
-    "static/media/svg-8.153304d3.svg": "/static/media/svg-8.153304d3.svg",
-    "static/media/svg-9.c8530967.svg": "/static/media/svg-9.c8530967.svg",
-    "static/media/video.fcb87060.mp4": "/static/media/video.fcb87060.mp4"
+    "main.css": "/React-Update-Portfolio-2.0/static/css/main.fad79206.chunk.css",
+    "main.js": "/React-Update-Portfolio-2.0/static/js/main.a1151d92.chunk.js",
+    "main.js.map": "/React-Update-Portfolio-2.0/static/js/main.a1151d92.chunk.js.map",
+    "runtime-main.js": "/React-Update-Portfolio-2.0/static/js/runtime-main.ae09c579.js",
+    "runtime-main.js.map": "/React-Update-Portfolio-2.0/static/js/runtime-main.ae09c579.js.map",
+    "static/js/2.e5426cf8.chunk.js": "/React-Update-Portfolio-2.0/static/js/2.e5426cf8.chunk.js",
+    "static/js/2.e5426cf8.chunk.js.map": "/React-Update-Portfolio-2.0/static/js/2.e5426cf8.chunk.js.map",
+    "index.html": "/React-Update-Portfolio-2.0/index.html",
+    "static/css/main.fad79206.chunk.css.map": "/React-Update-Portfolio-2.0/static/css/main.fad79206.chunk.css.map",
+    "static/js/2.e5426cf8.chunk.js.LICENSE.txt": "/React-Update-Portfolio-2.0/static/js/2.e5426cf8.chunk.js.LICENSE.txt",
+    "static/media/Bear.efdde29a.svg": "/React-Update-Portfolio-2.0/static/media/Bear.efdde29a.svg",
+    "static/media/svg-1.svg": "/React-Update-Portfolio-2.0/static/media/svg-1.198c8835.svg",
+    "static/media/svg-10.483fff52.svg": "/React-Update-Portfolio-2.0/static/media/svg-10.483fff52.svg",
+    "static/media/svg-11.a416ef44.svg": "/React-Update-Portfolio-2.0/static/media/svg-11.a416ef44.svg",
+    "static/media/svg-12.c9acc4f5.svg": "/React-Update-Portfolio-2.0/static/media/svg-12.c9acc4f5.svg",
+    "static/media/svg-2.svg": "/React-Update-Portfolio-2.0/static/media/svg-2.5f11287c.svg",
+    "static/media/svg-7.7255997b.svg": "/React-Update-Portfolio-2.0/static/media/svg-7.7255997b.svg",
+    "static/media/svg-8.153304d3.svg": "/React-Update-Portfolio-2.0/static/media/svg-8.153304d3.svg",
+    "static/media/svg-9.c8530967.svg": "/React-Update-Portfolio-2.0/static/media/svg-9.c8530967.svg",
+    "static/media/video.fcb87060.mp4": "/React-Update-Portfolio-2.0/static/media/video.fcb87060.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7452367.js",
-    "static/js/2.b9e550cc.chunk.js",
+    "static/js/runtime-main.ae09c579.js",
+    "static/js/2.e5426cf8.chunk.js",
     "static/css/main.fad79206.chunk.css",
-    "static/js/main.3a94f138.chunk.js"
+    "static/js/main.a1151d92.chunk.js"
   ]
 }
