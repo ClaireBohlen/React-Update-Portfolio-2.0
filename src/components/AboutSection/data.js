@@ -26,7 +26,7 @@ export const homeObjTwo = {
     topLine: "Connect with me!:",
     headline: "Claire Bohlen",
     description: "khjbg'orugnWOGJN RWgjgbsfg ouagodfjbgv",
-    buttonLabel: "Home!",
+    buttonLabel: "Socials",
     imgStart: false,
     img: require ("../../images/svg-1.svg"),
     alt: "Backend Engineer Symbol",

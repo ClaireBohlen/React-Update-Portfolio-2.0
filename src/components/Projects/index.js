@@ -3,6 +3,7 @@ import Icon1 from '../../images/svg-8.svg';
 import Icon2 from '../../images/svg-9.svg';
 import Icon3 from '../../images/svg-10.svg';
 import Icon4 from '../../images/svg-11.svg';
+import Icon5 from '../../images/svg-12.svg';
 import {
   ProjectsContainer,
   ProjectsH1,
@@ -56,8 +57,8 @@ const Projects = () => {
           </ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
-          <ProjectsIcon src={Icon1} />
-          <ProjectsH2>Reduce Expenses</ProjectsH2>
+          <ProjectsIcon src={Icon5} />
+          <ProjectsH2>Calculator</ProjectsH2>
           <ProjectsP>
             We help reduce your fees.
           </ProjectsP>
