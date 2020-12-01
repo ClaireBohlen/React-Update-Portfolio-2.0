@@ -11,14 +11,13 @@
 
 ## Instructions 
 
-## Deployed application: n/a
+## Deployed application: https://clairebohlen.github.io/React-Update-Portfolio-2.0/
 
 ## Github UserName: ClaireBohlen
 
-## Forking this repo?: 
+## Forking this repo?: Please feel free to fork this repo and make any contributions or additions you please.
        
 ## License Info: MIT
         
-## Here are some example tests I've run 
-        
-## You can contact me with any questions at 
+
+## You can contact me with any questions at: clairebohlen@gmail.com
