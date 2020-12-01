@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElement'
-import Image from "../../images/svg-1.svg"
+import Image from "../../images/svg-7.svg"
 import {
 AboutContainer,
 AboutWrapper,
@@ -30,7 +30,7 @@ const AboutSection = ({lightBg, imgStart, id, topLine, lightText, headline, dark
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <SubTitle darkText ={darkText}> {description}</SubTitle>
                                 <BtnWrap>
-                                <Button to="Home"> {buttonLabel}</Button>
+                                <Button to="Connect"> {buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Colum1>

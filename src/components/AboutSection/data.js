@@ -10,7 +10,7 @@ export const homeObjOne = {
     description: "I'm a full stack software engineer & web developer. I recently graduated from the Unviersity of Colorado with a degree in business & music. I'm currently enrolled in a coding bootcamp at the University of Denver and expect to graduate in December 2020. ",
     buttonLabel: "Connect with Me!",
     imgStart: false,
-    img: require ("../../images/svg-7.svg"),
+    img: require ("../../images/svg-2.svg"),
     alt: "Backend Engineer Symbol",
     dark: true,
     primary: true,
