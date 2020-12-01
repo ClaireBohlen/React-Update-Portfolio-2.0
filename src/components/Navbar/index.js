@@ -16,6 +16,7 @@ import {
 } from './NavbarElements';
 import Logo from "../../images/Bear.svg"
 
+
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
@@ -99,6 +100,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
             <NavBtn>
               <NavBtnLink to='/resume'>Resume</NavBtnLink>
+              
             </NavBtn>
           </NavbarContainer>
         </Nav>

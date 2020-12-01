@@ -18,7 +18,7 @@ const Footer = () => {
         
         <div>
 
-            <FooterContainer>
+            <FooterContainer id="Footer">
                 <FooterWrap>
                     <FooterLinksContainer>
                         <FooterLinksWrapper>
