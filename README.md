@@ -3,18 +3,18 @@
 
 ## As a developer, I would like to showcase my work and projects to potential employers and/or clients. I have built a react portfolio with an about section, project section and a connect section.
 
-##Install: npm install --save
+## Install: npm install --save
 
-##Instructions 
+## Instructions 
 
-#Deployed application: n/a
+## Deployed application: n/a
 
-##Github UserName: ClaireBohlen
+## Github UserName: ClaireBohlen
 
-##Forking this repo?: 
+## Forking this repo?: 
        
-##License Info: MIT
+## License Info: MIT
         
-##Here are some example tests I've run 
+## Here are some example tests I've run 
         
-##You can contact me with any questions at 
+## You can contact me with any questions at 
