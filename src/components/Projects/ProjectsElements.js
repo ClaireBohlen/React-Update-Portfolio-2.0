@@ -25,6 +25,7 @@ export const ProjectsWrapper = styled.div`
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
+  margin-top: -300px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -56,8 +57,8 @@ export const ProjectsCard = styled.div`
 `;
 
 export const ProjectsIcon = styled.img`
-  height: 160px;
-  width: 160px;
+  height: 120px;
+  width: 120px;
   margin-bottom: 10px;
 `;
 
@@ -80,3 +81,16 @@ export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;
+
+export const ProjectBtnLink = styled.div `
+  color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+
+    &:hover{
+        color: #01bf71;
+        transition: 0.3s ease-out;
+
+    }
+`
