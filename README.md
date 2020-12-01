@@ -6,6 +6,8 @@
 ![Screenshot](mobile.png =100x100)
 ![Screenshot](desktop.png =100x100)
 
+<img src="mobile.png" width="200">
+
 ## Install: npm install --save
 
 ## Instructions 
