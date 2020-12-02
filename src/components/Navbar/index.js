@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
+// import PDF from '../../pdfs/CB.pdf'
+// import Resume from '../Resume'
 import {
   
   Nav1,
@@ -100,7 +102,7 @@ const Navbar = ({ toggle }) => {
               </NavItem1>
             </NavMenu1>
             <ClaireResume>
-              <NavBtnLinktoResume to='/'>Resume</NavBtnLinktoResume>
+              <NavBtnLinktoResume to='Resume'>Resume</NavBtnLinktoResume>
             </ClaireResume>
           </Navbar1Container>
         </Nav1>

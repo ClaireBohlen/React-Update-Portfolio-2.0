@@ -38,10 +38,10 @@ const Projects = () => {
             Full stack hotel property management system.
           </ProjectsP>
           <ProjectsSecondP>
-            <DeployLinkIcon1 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon1 href='https://github.com/ClaireBohlen/hotel_motel' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
             </DeployLinkIcon1>
-            <DeployLinkIcon2 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon2 href='https://hotelmotel.herokuapp.com/' target='_blank' aria-label='CodePen'>
               <FaRocket/> 
             </DeployLinkIcon2>
           </ProjectsSecondP>
