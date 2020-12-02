@@ -31,7 +31,7 @@ const Projects = () => {
       <ProjectsH1></ProjectsH1>
       <ProjectsWrapper>
         
-        {/* Hotel Motel Project Card  */}
+        {/* Hotel Motel Project Card 1 */}
         <ProjectsCard >
           <ProjectsIcon src={Icon1} />
           <ProjectsH2>Hotel Motel</ProjectsH2>
@@ -49,7 +49,7 @@ const Projects = () => {
         </ProjectsCard>
         
         
-        {/* Fitness Tracker Project Card  */}
+        {/* Fitness Tracker Project Card 2 */}
         <ProjectsCard>
           <ProjectsIcon src={Icon2} />
           <ProjectsH2>Fitness Tracker</ProjectsH2>
@@ -67,6 +67,7 @@ const Projects = () => {
         </ProjectsCard>
        
        
+       {/* API Park Finder Project Card 3 */}
         <ProjectsCard>
           <ProjectsIcon src={Icon3} />
           <ProjectsH2>Park Finder</ProjectsH2>
@@ -81,11 +82,10 @@ const Projects = () => {
               <FaRocket/> 
             </DeployLinkIcon2>
           </ProjectsSecondP>
+       </ProjectsCard>
         
         
-        </ProjectsCard>
-        
-        
+        {/* Budget Tracker PWA Project Card 4 */}
         <ProjectsCard>
           <ProjectsIcon src={Icon4} />
           <ProjectsH2>Budget Tracker</ProjectsH2>
@@ -103,6 +103,8 @@ const Projects = () => {
         </ProjectsCard>
         
         
+
+        {/* NEEDS A PROJECT  */}
         <ProjectsCard>
           <ProjectsIcon src={Icon1} />
           <ProjectsH2>Reduce Expenses</ProjectsH2>
@@ -120,6 +122,8 @@ const Projects = () => {
         </ProjectsCard>
         
         
+
+        {/* Front End Javascript Calculator Project Card 6 */}
         <ProjectsCard>
           <ProjectsIcon src={Icon5} />
           <ProjectsH2>Calculator</ProjectsH2>
