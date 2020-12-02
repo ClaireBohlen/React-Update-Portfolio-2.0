@@ -71,13 +71,13 @@ const Projects = () => {
           <ProjectsIcon src={Icon3} />
           <ProjectsH2>Park Finder</ProjectsH2>
           <ProjectsP>
-            Unlock our special membership.
+            National Park API finder.
           </ProjectsP>
           <ProjectsSecondP>
-            <DeployLinkIcon1 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon1 href='https://github.com/ClaireBohlen/dubootcampProjectOne' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
             </DeployLinkIcon1>
-            <DeployLinkIcon2 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon2 href='https://tmessall.github.io/dubootcampProjectOne/' target='_blank' aria-label='CodePen'>
               <FaRocket/> 
             </DeployLinkIcon2>
           </ProjectsSecondP>
