@@ -31,6 +31,7 @@ const Projects = () => {
       <ProjectsH1></ProjectsH1>
       <ProjectsWrapper>
         
+        {/* Hotel Motel Project Card  */}
         <ProjectsCard >
           <ProjectsIcon src={Icon1} />
           <ProjectsH2>Hotel Motel</ProjectsH2>
@@ -45,22 +46,21 @@ const Projects = () => {
               <FaRocket/> 
             </DeployLinkIcon2>
           </ProjectsSecondP>
-          
         </ProjectsCard>
         
         
-        
+        {/* Fitness Tracker Project Card  */}
         <ProjectsCard>
           <ProjectsIcon src={Icon2} />
           <ProjectsH2>Fitness Tracker</ProjectsH2>
           <ProjectsP>
-            You can access our platform and lglglg.
+            Full stack workout tracker App.
           </ProjectsP>
           <ProjectsSecondP>
-            <DeployLinkIcon1 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon1 href='https://github.com/ClaireBohlen/fitnessTracker' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
             </DeployLinkIcon1>
-            <DeployLinkIcon2 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon2 href='https://fierce-spire-72446.herokuapp.com/?id=5fc117b061854600170605f9' target='_blank' aria-label='CodePen'>
               <FaRocket/> 
             </DeployLinkIcon2>
           </ProjectsSecondP>
