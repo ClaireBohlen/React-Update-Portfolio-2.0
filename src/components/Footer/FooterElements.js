@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 
 export const FooterContainer = styled.footer`
@@ -57,7 +58,7 @@ export const FooterLink = styled.div`
     font-size: 14px;
 
     &:hover{
-        color: #01bf71;
+        color: #F9A826;
         transition: 0.3s ease-out;
 
     }
@@ -72,4 +73,61 @@ export const SocailMediaWrap = styled.div`
     @media screen and (max-width: 820px){
         flex-direction: column;
     }
+`
+export const SocialLogo = styled(Link)` 
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-weight: bold; 
+
+
+    
+
+    
+`
+export const WebsiteRights = styled.small`
+  color: #F9A826;
+  margin-bottom: 16px;
+`;
+
+export const SocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+
+
+  
+`;
+
+export const SocialIconLink = styled.a`
+  color: #fff;
+  font-size: 40px;
+  &:hover{
+        color: #F9A826;
+        transition: 0.3s ease-out;
+
+    }
+`;
+
+export const NavLogoImg = styled.img ` 
+    margin-top: 10px;
+    margin-bottom: 12px;
+    height: auto;
+    width: 60px;
+    padding-right: 5px;
+    &:hover{
+        color: #F9A826;
+        transition: 0.3s ease-out;
+
+    }
+
+   
 `
