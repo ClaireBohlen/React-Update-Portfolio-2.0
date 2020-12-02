@@ -37,6 +37,36 @@ export const ProjectsWrapper = styled.div`
   }
 `;
 
+
+export const DeployLinkIcon1 = styled.a`
+      color: #000000;
+      font-size: 20px;
+      padding-right: 24px;
+      padding-top: 10px;
+      
+      
+      &:hover{
+      color: #F9A826;
+      transition: 0.3s ease-out;
+
+        }
+`;
+export const DeployLinkIcon2 = styled.a`
+      color: #000000;
+      font-size: 20px;
+      /* margin-left: -94px; */
+      
+      
+      &:hover{
+      color: #F9A826;
+      transition: 0.3s ease-out;
+
+        }
+`;
+
+
+
+
 export const ProjectsCard = styled.div`
   background: #fff;
   display: flex;
@@ -54,6 +84,7 @@ export const ProjectsCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+  
 `;
 
 export const ProjectsIcon = styled.img`
@@ -84,13 +115,20 @@ export const ProjectsP = styled.p`
 
 export const ProjectBtnLink = styled.div `
   color: black;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-    font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
 
     &:hover{
         color: #01bf71;
         transition: 0.3s ease-out;
 
     }
+`
+export const ProjectsSecondP = styled.p ` 
+    margin-bottom: -20px;
+    justify-content: space-between;
+    padding-top:10px;
+
+
 `

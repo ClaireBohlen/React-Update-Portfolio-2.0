@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../../images/Bear.svg'
+import Modal from '../Modal'
 import {
     FooterContainer,
     FooterWrap,
@@ -63,6 +64,7 @@ const Footer = () => {
                             <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
                                 <FaTwitter />
                             </SocialIconLink>
+                            
                         </SocialIcons>
 
                     </SocailMediaWrap>

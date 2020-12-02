@@ -3,16 +3,17 @@ import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
 import {
-  MobileIcon,
-  Nav,
-  NavbarContainer,
-  NavItem,
-  NavLinks,
-  NavLogo,
-  NavMenu,
-  NavBtn,
-  NavBtnLink,
-  NavLogoImg
+  
+  Nav1,
+  Navbar1Container,
+  NavItem1,
+  NavLinks1,
+  NavLogo1,
+  NavMenu1,
+  ClaireResume,
+  NavBtnLinktoResume,
+  NavLogoImg1,
+  MobileIcon1
 } from './NavbarElements';
 import Logo from "../../images/Bear.svg"
 
@@ -39,16 +40,16 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
-        <Nav scrollNav={scrollNav}>
-          <NavbarContainer>
-            <NavLogo  onClick={toggleHome} to='/'>
+        <Nav1 scrollNav={scrollNav}>
+          <Navbar1Container>
+            <NavLogo1  onClick={toggleHome} to='/'>
               {/* <img src={Logo} alt="bear-logo"/> */}
-              <NavLogoImg src={Logo} alt="bear-logo"/>
-            </NavLogo>
-            <MobileIcon onClick={toggle}>
+              <NavLogoImg1 src={Logo} alt="bear-logo"/>
+            </NavLogo1>
+            <MobileIcon1 onClick={toggle}>
               <FaBars />
-            </MobileIcon>
-            <NavMenu>
+            </MobileIcon1>
+            <NavMenu1>
               {/* <NavItem>
                 <NavLinks onClcik = {toggleHome}
                   to="/"
@@ -61,8 +62,8 @@ const Navbar = ({ toggle }) => {
                   Home
                 </NavLinks>
               </NavItem> */}
-              <NavItem>
-                <NavLinks
+              <NavItem1>
+                <NavLinks1
                   to='About'
                   smooth={true}
                   duration={500}
@@ -71,10 +72,10 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   About
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
+                </NavLinks1>
+              </NavItem1>
+              <NavItem1>
+                <NavLinks1
                   to='Projects'
                   smooth={true}
                   duration={500}
@@ -83,10 +84,10 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   Projects
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
+                </NavLinks1>
+              </NavItem1>
+              <NavItem1>
+                <NavLinks1
                   to='Connect'
                   smooth={true}
                   duration={500}
@@ -95,15 +96,14 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   Connect
-                </NavLinks>
-              </NavItem>
-            </NavMenu>
-            <NavBtn>
-              <NavBtnLink to='/resume'>Resume</NavBtnLink>
-              
-            </NavBtn>
-          </NavbarContainer>
-        </Nav>
+                </NavLinks1>
+              </NavItem1>
+            </NavMenu1>
+            <ClaireResume>
+              <NavBtnLinktoResume to='/'>Resume</NavBtnLinktoResume>
+            </ClaireResume>
+          </Navbar1Container>
+        </Nav1>
       </IconContext.Provider>
     </>
   );

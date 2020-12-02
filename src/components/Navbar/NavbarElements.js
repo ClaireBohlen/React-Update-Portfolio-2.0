@@ -1,9 +1,9 @@
 import styled from "styled-components"
-import {Link as LinkR} from "react-router-dom"
+import {Link as LinkRouter} from "react-router-dom"
 import {Link as LinkS} from "react-scroll"
 
 
-export const Nav = styled.nav `
+export const Nav1 = styled.nav `
     background: #000;
     height: 80px;
     
@@ -19,7 +19,7 @@ export const Nav = styled.nav `
         transition: 0.8s all ease;
     }
 `
-export const NavbarContainer = styled.div `
+export const Navbar1Container = styled.div `
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div `
     max-width:1100px;
 `
 
-export const NavLogo = styled(LinkR) `
+export const NavLogo1 = styled(LinkRouter) `
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
@@ -41,7 +41,7 @@ export const NavLogo = styled(LinkR) `
     text-decoration: none;
 `
 
-export const MobileIcon = styled.div `
+export const MobileIcon1 = styled.div `
      display: none;
 
     @media screen and (max-width: 768px) {
@@ -57,7 +57,7 @@ export const MobileIcon = styled.div `
 }
 
 `
-export const NavMenu = styled.ul`
+export const NavMenu1 = styled.ul`
     display: flex;
     align-items: center;
     list-style: none;
@@ -69,11 +69,11 @@ export const NavMenu = styled.ul`
         display: none;
     }
 `
-export const NavItem = styled.li `
+export const NavItem1 = styled.li `
     height: 80px;
 `
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks1 = styled(LinkS)`
     color: #fff;
     display: felx;
     align-items: center;
@@ -87,7 +87,7 @@ export const NavLinks = styled(LinkS)`
 
     }
 `
-export const NavBtn = styled.nav `
+export const ClaireResume = styled.div `
     display: flex;
     align-items: center;
 
@@ -95,7 +95,7 @@ export const NavBtn = styled.nav `
         display: none;
     }
 `
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLinktoResume = styled(LinkRouter)`
     border-radius: 50px;
     background: #F9A826;
     white-space: nowrap;
@@ -115,7 +115,7 @@ export const NavBtnLink = styled(LinkR)`
 
     }
 `
-export const NavLogoImg = styled.img`
+export const NavLogoImg1 = styled.img`
     margin-top: 10px;
     margin-bottom: 12px;
     height: auto;
