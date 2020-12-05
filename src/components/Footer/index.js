@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../images/Bear.svg'
-import Modal from '../Modal'
+// import Modal from '../Modal'
 import {
     FooterContainer,
     FooterWrap,
@@ -66,6 +66,7 @@ const Footer = () => {
                             </SocialIconLink>
                             
                         </SocialIcons>
+                        {/* <Modal/> */}
 
                     </SocailMediaWrap>
                 </FooterWrap>
