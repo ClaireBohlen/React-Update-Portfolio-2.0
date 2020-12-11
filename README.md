@@ -69,10 +69,6 @@
 
 I built this React Portfolio to display my latest projects and my design skills. I wanted a custom website where fellow engineers and employers can get to know me a little better. Check out my contact section to get in touch.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
@@ -142,7 +138,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * [README Template](https://fontawesome.com)
 * [UnDraw](https://undraw.co/search)
 * [Brain Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
-* []()
+
 
 
 
