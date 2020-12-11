@@ -3,7 +3,9 @@ import Icon1 from '../../images/svg-8.svg';
 import Icon2 from '../../images/svg-9.svg';
 import Icon3 from '../../images/svg-10.svg';
 import Icon4 from '../../images/svg-11.svg';
-import Icon5 from '../../images/svg-12.svg';
+// import Icon5 from '../../images/svg-12.svg';
+import Icon6 from '../../images/svg-13.svg';
+import Icon7 from '../../images/svg-14.svg';
 
 
 import {
@@ -47,9 +49,27 @@ const Projects = () => {
             </DeployLinkIcon2>
           </ProjectsSecondP>
         </ProjectsCard>
+
+
+        {/* Shake It Up  */}
+        <ProjectsCard>
+          <ProjectsIcon src={Icon6} />
+          <ProjectsH2>Shake It Up</ProjectsH2>
+          <ProjectsP>
+            Mern Stack Activity Generator.
+          </ProjectsP>
+          <ProjectsSecondP>
+            <DeployLinkIcon1 href='https://github.com/ClaireBohlen/MasonJar' target='_blank' aria-label='CodePen'>
+              <FaGithub/> 
+            </DeployLinkIcon1>
+            <DeployLinkIcon2 href='https://shake-it-up.herokuapp.com/' target='_blank' aria-label='CodePen'>
+              <FaRocket/> 
+            </DeployLinkIcon2>
+          </ProjectsSecondP>
+        </ProjectsCard>
         
         
-        {/* Fitness Tracker Project Card 2 */}
+        {/* Fitness Tracker Project Card 3 */}
         <ProjectsCard>
           <ProjectsIcon src={Icon2} />
           <ProjectsH2>Fitness Tracker</ProjectsH2>
@@ -67,7 +87,7 @@ const Projects = () => {
         </ProjectsCard>
        
        
-       {/* API Park Finder Project Card 3 */}
+       {/* API Park Finder Project Card 4 */}
         <ProjectsCard>
           <ProjectsIcon src={Icon3} />
           <ProjectsH2>Park Finder</ProjectsH2>
@@ -85,7 +105,7 @@ const Projects = () => {
        </ProjectsCard>
         
         
-        {/* Budget Tracker PWA Project Card 4 */}
+        {/* Budget Tracker PWA Project Card 5 */}
         <ProjectsCard>
           <ProjectsIcon src={Icon4} />
           <ProjectsH2>Budget Tracker</ProjectsH2>
@@ -93,10 +113,10 @@ const Projects = () => {
             We help reduce your fees.
           </ProjectsP>
           <ProjectsSecondP>
-            <DeployLinkIcon1 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon1 href='https://github.com/ClaireBohlen/online-offline-budget-tracker-PWA' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
             </DeployLinkIcon1>
-            <DeployLinkIcon2 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon2 href='https://budget-tracker-pwa-20.herokuapp.com/' target='_blank' aria-label='CodePen'>
               <FaRocket/> 
             </DeployLinkIcon2>
           </ProjectsSecondP>
@@ -104,37 +124,23 @@ const Projects = () => {
         
         
 
-        {/* NEEDS A PROJECT  */}
-        <ProjectsCard>
-          <ProjectsIcon src={Icon1} />
-          <ProjectsH2>Reduce Expenses</ProjectsH2>
-          <ProjectsP>
-            We help reduce your fees.
-          </ProjectsP>
-          <ProjectsSecondP>
-            <DeployLinkIcon1 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
-              <FaGithub/> 
-            </DeployLinkIcon1>
-            <DeployLinkIcon2 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
-              <FaRocket/> 
-            </DeployLinkIcon2>
-          </ProjectsSecondP>
-        </ProjectsCard>
+        
+       
         
         
 
         {/* Front End Javascript Calculator Project Card 6 */}
         <ProjectsCard>
-          <ProjectsIcon src={Icon5} />
-          <ProjectsH2>Calculator</ProjectsH2>
+          <ProjectsIcon src={Icon7} />
+          <ProjectsH2>Note Taker</ProjectsH2>
           <ProjectsP>
-            We help reduce your fees.
+            Full Stack Online Note Taker.
           </ProjectsP>
           <ProjectsSecondP>
-            <DeployLinkIcon1 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon1 href='https://github.com/ClaireBohlen/noteTaker' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
             </DeployLinkIcon1>
-            <DeployLinkIcon2 href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
+            <DeployLinkIcon2 href='https://fathomless-springs-57799.herokuapp.com/' target='_blank' aria-label='CodePen'>
               <FaRocket/> 
             </DeployLinkIcon2>
           </ProjectsSecondP>
