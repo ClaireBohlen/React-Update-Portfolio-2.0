@@ -124,7 +124,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Claire C. Bohlen - [@polarbear4321](https://twitter.com/polarbear4321_) - clairebohlen@gmail.com
+Claire C. Bohlen - [@polarbear4321](https://twitter.com/polarbear4321_) - 📧clairebohlen@gmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
