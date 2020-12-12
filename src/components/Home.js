@@ -7,6 +7,7 @@ import { homeObjOne } from "./AboutSection/data";
 import Projects from "./Projects";
 import { homeObjTwo } from "./AboutSection/data";
 import Footer from "./Footer"
+import Connect from "./Connect"
 
 
 
@@ -25,6 +26,7 @@ function Home (){
             <SideBar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
             <Hero/>
+            <Connect/>
             <AboutSection {...homeObjOne}/>
             <Projects />
             <AboutSection {...homeObjTwo} />
