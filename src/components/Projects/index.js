@@ -20,6 +20,7 @@ import {
   ProjectsIcon,
   ProjectsH2,
   ProjectsP,
+  ProjectsP2,
   DeployLinkIcon1,
   DeployLinkIcon2,
   ProjectsSecondP,
@@ -40,6 +41,9 @@ const Projects = () => {
           <ProjectsP>
             Full stack hotel property management system.
           </ProjectsP>
+          <ProjectsP2>
+            Full Stack CRUD Online Note Taking Application.
+          </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/hotel_motel' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
@@ -58,6 +62,9 @@ const Projects = () => {
           <ProjectsP>
             Mern Stack Activity Generator.
           </ProjectsP>
+          <ProjectsP2>
+            Full Stack CRUD Online Note Taking Application.
+          </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/MasonJar' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
@@ -76,6 +83,9 @@ const Projects = () => {
           <ProjectsP>
             Full stack workout tracker App.
           </ProjectsP>
+          <ProjectsP2>
+            Full Stack CRUD Online Note Taking Application.
+          </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/fitnessTracker' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
@@ -92,8 +102,11 @@ const Projects = () => {
           <ProjectsIcon src={Icon3} />
           <ProjectsH2>Park Finder</ProjectsH2>
           <ProjectsP>
-            National Park API finder.
+            Third Party API National Park Finder.
           </ProjectsP>
+          <ProjectsP2>
+            Full Stack CRUD Online Note Taking Application.
+          </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/dubootcampProjectOne' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
@@ -110,8 +123,11 @@ const Projects = () => {
           <ProjectsIcon src={Icon4} />
           <ProjectsH2>Budget Tracker</ProjectsH2>
           <ProjectsP>
-            We help reduce your fees.
+            Full Stack Progressive Web Budget Tracking App.
           </ProjectsP>
+          <ProjectsP2>
+            Full Stack CRUD Online Note Taking Application.
+          </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/online-offline-budget-tracker-PWA' target='_blank' aria-label='CodePen'>
               <FaGithub/> 
@@ -134,8 +150,11 @@ const Projects = () => {
           <ProjectsIcon src={Icon7} />
           <ProjectsH2>Note Taker</ProjectsH2>
           <ProjectsP>
-            Full Stack Online Note Taker.
+            Full Stack CRUD Online Note Taking Application.
           </ProjectsP>
+          <ProjectsP2>
+            Full Stack CRUD Online Note Taking Application.
+          </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/noteTaker' target='_blank' aria-label='CodePen'>
               <FaGithub/> 

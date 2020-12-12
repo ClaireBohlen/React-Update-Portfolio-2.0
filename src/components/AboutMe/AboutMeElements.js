@@ -7,6 +7,14 @@ background: ${({lightBg}) => (lightBg ? " #f9f9f9" : "010606")};
 @media screen and (max-width: 768px){
     padding: 100px 0;
 }
+@media screen and (max-width: 768px) {
+    height: 1800px;
+    
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 1800px;
+  }
 `
 
 export const AboutWrapper = styled.div `
@@ -40,7 +48,7 @@ export const Colum1 = styled.div `
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
-    margin-top: -100px;
+    margin-top: -50px;
 
     @media screen and (max-width: 768px){
         margin-top: 0;
@@ -58,7 +66,7 @@ export const Colum2 = styled.div`
 
 export const TextWrapper = styled.div `
     max-width: 540px;
-    padding-top: 0;
+    padding-top: 20px;
     padding-bottom: 60px;
     
 `
@@ -100,7 +108,7 @@ export const BtnWrap = styled.div `
 `
 
 export const ImgWrap = styled.div `
-    max-width: 555px;
+    max-width: 300px;
     height: 100%;
 `
 

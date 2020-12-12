@@ -9,11 +9,12 @@ export const ProjectsContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1800px;
+    
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1800px;
   }
 `;
 
@@ -25,10 +26,11 @@ export const ProjectsWrapper = styled.div`
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
-  margin-top: -300px;
+  margin-top: -250px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: -220px;
   }
 
   @media screen and (max-width: 768px) {
@@ -43,6 +45,7 @@ export const DeployLinkIcon1 = styled.a`
       font-size: 20px;
       padding-right: 24px;
       padding-top: 10px;
+      
       
       
       &:hover{
@@ -112,6 +115,12 @@ export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;
+export const ProjectsP2 = styled.p`
+  font-size: 0.5rem;
+  text-align: center;
+`;
+
+
 
 export const ProjectBtnLink = styled.div `
   color: black;
