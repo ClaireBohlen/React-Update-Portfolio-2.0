@@ -1,5 +1,18 @@
 import React from "react";
 import { Button } from '../ButtonElement'
+import {
+    Container,
+    FormWrap,
+    Icon,
+    FormContent,
+    Form,
+    FormH1,
+    FormLabel,
+    FormInput,
+    FormButton,
+    Text
+  } from './FormElements';
+  
 
 
 export default class MyForm extends React.Component {
@@ -15,7 +28,7 @@ export default class MyForm extends React.Component {
       const { status } = this.state;
       return (
         <>
-        <Container>
+        {/* <Container> */}
           <FormWrap>
             <Icon to='/'>dolla</Icon>
             <FormContent>
@@ -30,13 +43,14 @@ export default class MyForm extends React.Component {
                 <FormLabel htmlFor='for'>Message:</FormLabel>
                 <FormInput type="text" name="message"required />
                 {/* <FormButton type='submit'>Continue</FormButton> */}
-                {status === "SUCCESS" ? <p>Thanks!</p> : <FormButton>Submit</FormButton>}
+                {status === "SUCCESS" ? <p></p> : <FormButton>Submit</FormButton>}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>} 
+                {/* <FormButton>Connect on Social Media</FormButton> */}
                 {/* <Text>Forgot password</Text> */}
               </Form>
             </FormContent>
           </FormWrap>
-        </Container>
+        {/* </Container> */}
       </>
 
 

@@ -27,12 +27,9 @@ const AboutSection = ({ dark, dark2, primary}) => {
                     <AboutRow>
                         <Colum1>
                             <TextWrapper>
-                                <TopLine>Hello</TopLine>
-                                <Heading>Connect</Heading>
-                                <SubTitle> Contact Form</SubTitle>
-                                <MyForm/>
+                               <MyForm/>
                                 <BtnWrap>
-                                <Button
+                                {/* <Button
                                 to="Footer"
                                 smooth={true}
                                 duration={500}
@@ -42,7 +39,7 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}
-                                 > Socials</Button>
+                                 > Socials</Button> */}
                                 </BtnWrap>
                             </TextWrapper>
                         </Colum1>
