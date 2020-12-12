@@ -51,8 +51,8 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-                                primary={primary ? 1 : 0}
-                                dark={dark ? 1 : 0}
+                                primary={primary ? 0 : 1}
+                                dark={dark ? 0 : 1}
                                 dark2={dark2 ? 1 : 0}
                                  > Connect with me on Social Media</Button>
                                 </BtnWrap>

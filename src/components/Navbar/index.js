@@ -66,7 +66,7 @@ const Navbar = ({ toggle }) => {
               </NavItem> */}
               <NavItem1>
                 <NavLinks1
-                  to='About'
+                  to='About-2'
                   smooth={true}
                   duration={500}
                   spy={true}
