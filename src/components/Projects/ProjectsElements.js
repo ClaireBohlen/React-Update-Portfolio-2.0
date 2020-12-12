@@ -91,7 +91,7 @@ export const ProjectsCard = styled.div`
 `;
 
 export const ProjectsIcon = styled.img`
-  height: 120px;
+  height: 100px;
   width: 120px;
   margin-bottom: 10px;
 `;

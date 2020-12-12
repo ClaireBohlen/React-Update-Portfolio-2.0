@@ -42,7 +42,7 @@ const Projects = () => {
             Full stack hotel property management system.
           </ProjectsP>
           <ProjectsP2>
-            Full Stack CRUD Online Note Taking Application.
+            JavaScript, NodeJs, MySQL, Express, RESTful API's.
           </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/hotel_motel' target='_blank' aria-label='CodePen'>
@@ -63,7 +63,7 @@ const Projects = () => {
             Mern Stack Activity Generator.
           </ProjectsP>
           <ProjectsP2>
-            Full Stack CRUD Online Note Taking Application.
+            React, NodeJs, MongoDB, Express.
           </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/MasonJar' target='_blank' aria-label='CodePen'>
