@@ -13,31 +13,40 @@ ImgWrap,
 Img,
 TopLine,
 Heading,
-SubTitle
+SubTitle,
+IconList
 
 
 } from "./AboutMeElements"
 
 
 import {
-SiJavascript,
-SiReact,
-DiNodejs,
-SiMysql,
-SiMongodb,
-SiJquery,
+
 AiFillHtml5,
-SiCss3,
-SiAdobexd,
-SiAdobephotoshop,
-SiAdobeillustrator,
-SiAdobepremiere,
 AiFillGithub,
 
     
-  } from 'react-icons'
+} from 'react-icons/ai'
+import {
+DiNodejs
 
-import {SiHeroku} from 'react-icons/si'
+    
+        
+} from 'react-icons/di'
+
+import 
+{SiJavascript,
+    SiHeroku,
+    SiAdobepremiere,
+    SiAdobeillustrator,
+    SiAdobephotoshop,
+    SiAdobexd,
+    SiCss3,
+    SiJquery,
+    SiMysql,
+    SiReact,
+    SiMongodb
+} from 'react-icons/si'
 
 const AboutSection = ({ dark, dark2, primary}) => {
     return (
@@ -49,9 +58,26 @@ const AboutSection = ({ dark, dark2, primary}) => {
                             <TextWrapper>
                             <TopLine>About Me:</TopLine>
                                 <ul>
-                                    <li>
-                                        <SiHeroku style={{color: 'blue'}}/>
-                                    </li>
+                                    <IconList>
+                                   
+                                        <SiReact style={{color: 'black', margin: "0 0 3px 0;"}}/>
+                                        <SiJavascript style={{color: 'black'}}/>
+                                        <SiMongodb style={{color: 'black'}}/>
+                                        <SiMysql style={{color: 'black'}}/>
+                                        <SiCss3 style={{color: 'black'}}/>
+                                        <SiJquery style={{color: 'black'}}/>
+                                        <SiAdobeillustrator style={{color: 'black'}}/>
+                                        <SiAdobephotoshop style={{color: 'black'}}/>
+                                        <SiAdobexd style={{color: 'black'}}/>
+                                        <SiAdobepremiere style={{color: 'black'}}/>
+                                        <SiHeroku style={{color: 'black'}}/>
+                                        <DiNodejs style={{color: 'black'}}/>
+                                        <SiAdobexd style={{color: 'black'}}/>
+                                        <AiFillHtml5 style={{color: 'black'}}/>
+                                        <AiFillGithub style={{color: 'black'}}/>
+                                        {/* <AiFillHtml5 style={{color: 'black'}}/> */}
+                                    
+                                    </IconList>
                                 </ul>
                                
                                 <SubTitle> I am a Full Stack Engineer & Developer with a background in Business & Sales.  I recently earned a certificate in Full Stack Development from the University of Denver and I have a bachelor of Science in Business & Music from the University of Colorado.</SubTitle>

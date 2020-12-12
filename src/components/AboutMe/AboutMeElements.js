@@ -81,6 +81,10 @@ export const TopLine = styled.p `
     margin-bottom: 16px;
 `
 
+export const IconList = styled.li ` 
+    margin: 0 0 3px 0;
+`
+
 export const Heading = styled.h1 `
     margin-bottom: 24px;
     font-size: 20px;
