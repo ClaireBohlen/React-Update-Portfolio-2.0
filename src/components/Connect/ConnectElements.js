@@ -110,3 +110,4 @@ export const Img = styled.img `
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
+`
