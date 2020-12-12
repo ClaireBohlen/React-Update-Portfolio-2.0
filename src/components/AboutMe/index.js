@@ -15,9 +15,29 @@ TopLine,
 Heading,
 SubTitle
 
-} from "./AboutMeElements"
-import MyForm from '../Form'
 
+} from "./AboutMeElements"
+
+
+import {
+SiJavascript,
+SiReact,
+DiNodejs,
+SiMysql,
+SiMongodb,
+SiJquery,
+AiFillHtml5,
+SiCss3,
+SiAdobexd,
+SiAdobephotoshop,
+SiAdobeillustrator,
+SiAdobepremiere,
+AiFillGithub,
+
+    
+  } from 'react-icons'
+
+import {SiHeroku} from 'react-icons/si'
 
 const AboutSection = ({ dark, dark2, primary}) => {
     return (
@@ -28,6 +48,11 @@ const AboutSection = ({ dark, dark2, primary}) => {
                         <Colum1>
                             <TextWrapper>
                             <TopLine>About Me:</TopLine>
+                                <ul>
+                                    <li>
+                                        <SiHeroku style={{color: 'blue'}}/>
+                                    </li>
+                                </ul>
                                
                                 <SubTitle> I am a Full Stack Engineer & Developer with a background in Business & Sales.  I recently earned a certificate in Full Stack Development from the University of Denver and I have a bachelor of Science in Business & Music from the University of Colorado.</SubTitle>
                                 <SubTitle> I’m an innovative problem solver that is passionate about developing apps, with a focus on mobile-first design and development. My background in Business Development has prepared me to approach problems creativity and work well with teams. </SubTitle>
