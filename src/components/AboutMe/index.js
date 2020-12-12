@@ -60,7 +60,7 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                 <ul>
                                     <IconList>
                                    
-                                        <SiReact style={{color: 'black', margin: "0 0 3px 0;"}}/>
+                                        <SiReact style={{color: 'black', marginRight: "20px;"}}/>
                                         <SiJavascript style={{color: 'black'}}/>
                                         <SiMongodb style={{color: 'black'}}/>
                                         <SiMysql style={{color: 'black'}}/>
