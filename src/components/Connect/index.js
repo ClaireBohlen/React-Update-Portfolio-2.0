@@ -29,7 +29,6 @@ const AboutSection = ({lightBg, imgStart, id, topLine, lightText, headline, dark
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <SubTitle darkText ={darkText}> {description}</SubTitle>
-                                
                                 <BtnWrap>
                                 <Button
                                  to={buttonTarget}
