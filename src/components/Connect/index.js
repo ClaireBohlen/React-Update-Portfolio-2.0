@@ -16,6 +16,7 @@ ImgWrap,
 Img,
 
 } from "./ConnectElements"
+import MyForm from '../Form'
 
 
 const AboutSection = ({ dark, dark2, primary}) => {
@@ -29,6 +30,7 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                 <TopLine>Hello</TopLine>
                                 <Heading>Connect</Heading>
                                 <SubTitle> Contact Form</SubTitle>
+                                <MyForm/>
                                 <BtnWrap>
                                 <Button
                                 to="Footer"
