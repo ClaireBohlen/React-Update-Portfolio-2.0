@@ -15,24 +15,24 @@ BtnWrap,
 ImgWrap,
 Img,
 
-} from "./AboutElements"
+} from "./ConnectElements"
 
 
-const AboutSection = ({lightBg, imgStart, id, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, buttonTarget, dark, dark2, primary}) => {
+const AboutSection = ({ dark, dark2, primary}) => {
     return (
         <div>
-            <AboutContainer lightBg={lightBg} id={id}>
+            <AboutContainer id="connect-2">
                 <AboutWrapper>
-                    <AboutRow imgStart={imgStart}>
+                    <AboutRow>
                         <Colum1>
                             <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
-                                <SubTitle darkText ={darkText}> {description}</SubTitle>
+                                <TopLine>Hello</TopLine>
+                                <Heading>Connect</Heading>
+                                <SubTitle> Contact Form</SubTitle>
                                 <BtnWrap>
                                 <Button
-                                 to={buttonTarget}
-                                 smooth={true}
+                                to="socials-2"
+                                smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact='true'
@@ -40,13 +40,13 @@ const AboutSection = ({lightBg, imgStart, id, topLine, lightText, headline, dark
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}
-                                 > {buttonLabel}</Button>
+                                 > Text for Button</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Colum1>
                         <Colum2>
                             <ImgWrap>
-                                <Img src={Image} alt={alt}/>
+                                <Img src={Image}/>
                             </ImgWrap>
                         </Colum2>
                     </AboutRow>
