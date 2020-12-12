@@ -25,8 +25,8 @@ const AboutSection = ({ dark, dark2, primary}) => {
                         <Colum1>
                             <TextWrapper>
                                <MyForm/>
-                                <BtnWrap>
-                                {/* <Button
+                                {/* <BtnWrap>
+                                <Button
                                 to="Footer"
                                 smooth={true}
                                 duration={500}
@@ -36,14 +36,28 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}
-                                 > Socials</Button> */}
-                                </BtnWrap>
+                                 > Socials</Button>
+                                </BtnWrap> */}
                             </TextWrapper>
                         </Colum1>
                         <Colum2>
                             <ImgWrap>
                                 <Img src={Image}/>
+                                <BtnWrap>
+                                <Button
+                                to="Footer"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                primary={primary ? 1 : 0}
+                                dark={dark ? 1 : 0}
+                                dark2={dark2 ? 1 : 0}
+                                 > Connect with me on Social Media</Button>
+                                </BtnWrap>
                             </ImgWrap>
+
                         </Colum2>
                     </AboutRow>
                 </AboutWrapper>

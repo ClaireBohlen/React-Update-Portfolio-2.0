@@ -40,7 +40,7 @@ export const Colum1 = styled.div `
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
-    margin-top: -50px;
+    margin-top: -200px;
 
     @media screen and (max-width: 768px){
         margin-top: 0;

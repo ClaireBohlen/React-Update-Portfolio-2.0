@@ -26,10 +26,10 @@ function Home (){
             <SideBar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
             <Hero/>
-            <Connect/>
             <AboutSection {...homeObjOne}/>
             <Projects />
-            <AboutSection {...homeObjTwo} />
+            <Connect/>
+            {/* <AboutSection {...homeObjTwo} /> */}
             <Footer/>
 
 
