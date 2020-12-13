@@ -57,6 +57,18 @@ export const Colum1 = styled.div `
 
 
 `
+export const IconStyle = styled.a`
+      color: #000000;
+      font-size: 25px;
+      margin-right: 1px;
+      
+      
+      &:hover{
+      color: #F9A826;
+      transition: 0.3s ease-out;
+
+        }
+`;
 
 export const Colum2 = styled.div`
     margin-bottom: 15px;

@@ -16,6 +16,7 @@ Heading,
 SubTitle,
 SubTitle2,
 IconList,
+IconStyle,
 
 
 
@@ -61,22 +62,37 @@ const AboutSection = ({ dark, dark2, primary}) => {
                             <TopLine>About Me:</TopLine>
                                 <ul>
                                     <IconList>
-                                   
-                                        <SiReact style={{color: 'black', size: '2rem;'}}/>
-                                        <SiJavascript style={{color: 'black'}}/>
-                                        <SiMongodb style={{color: 'black'}}/>
-                                        <SiMysql style={{color: 'black'}}/>
-                                        <SiCss3 style={{color: 'black'}}/>
-                                        <SiJquery style={{color: 'black'}}/>
-                                        <SiAdobeillustrator style={{color: 'black'}}/>
-                                        <SiAdobephotoshop style={{color: 'black'}}/>
-                                        <SiAdobexd style={{color: 'black'}}/>
-                                        <SiAdobepremiere style={{color: 'black'}}/>
-                                        <SiHeroku style={{color: 'black'}}/>
-                                        <DiNodejs style={{color: 'black'}}/>
-                                        <SiAdobexd style={{color: 'black'}}/>
-                                        <AiFillHtml5 style={{color: 'black'}}/>
-                                        <AiFillGithub style={{color: 'black'}}/>
+                                        <IconStyle>
+                                        <SiReact style={{color: 'black', size: '2rem;'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiJavascript style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiMongodb style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiMysql style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiCss3 style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiJquery style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiAdobeillustrator style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiAdobephotoshop style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiAdobexd style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiAdobepremiere style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiHeroku style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <DiNodejs style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <SiAdobexd style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <AiFillHtml5 style={{color: 'black'}}/></IconStyle>
+                                        <IconStyle>
+                                        <AiFillGithub style={{color: 'black'}}/></IconStyle>
+
                                         {/* <AiFillHtml5 style={{color: 'black'}}/> */}
                                     
                                     </IconList>
