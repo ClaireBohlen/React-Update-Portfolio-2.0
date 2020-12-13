@@ -39,10 +39,10 @@ const Footer = () => {
                     <FooterLinksContainer>
                         <FooterLinksWrapper>
                             <FooterLinkItems>
-                                <FooterLinkTitle> Socials</FooterLinkTitle>
-                                <FooterLink to="/">Github</FooterLink>
-                                <FooterLink to="/">LinkedIn</FooterLink>
-                                <FooterLink to="/">Codepen</FooterLink>
+                                {/* <FooterLinkTitle>Navigate</FooterLinkTitle>
+                                <FooterLink to='/' onClick={toggleHome}>Home</FooterLink> */}
+                                {/* <FooterLink to="About-2">About</FooterLink>
+                                <FooterLink to="/">Projects</FooterLink> */}
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>

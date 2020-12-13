@@ -25,13 +25,14 @@ const Hero = () => {
     
     return (
 
-        <HeroContainer>
+        <HeroContainer id="Hero">
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type= "video/mp4"/>
             </HeroBg>
             <HeroContent>
-                <HeroH1> Hey! I'm Claire.I build applications for the web.</HeroH1>
-                <HeroP>Software engineer and Web developer</HeroP>
+                <HeroH1> Hey! I'm Claire.{"\n"}
+                I build applications for the web.</HeroH1>
+                <HeroP>Software Engineer & Web Developer</HeroP>
                 <HeroBtnWrapper>
                     <Button 
                     to = "Projects" 
@@ -39,7 +40,7 @@ const Hero = () => {
                     onMouseLeave = {onHover}
                     primary="true"
                     dark="true">
-                    View my latest Projects {hover ? <ArrowForward/>: <ArrowRight/>}
+                    View my Work {hover ? <ArrowForward/>: <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
                 
