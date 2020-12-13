@@ -1,20 +1,25 @@
 {
   "files": {
     "main.css": "/React-Update-Portfolio-2.0/static/css/main.fad79206.chunk.css",
-    "main.js": "/React-Update-Portfolio-2.0/static/js/main.a84ce1e5.chunk.js",
-    "main.js.map": "/React-Update-Portfolio-2.0/static/js/main.a84ce1e5.chunk.js.map",
+    "main.js": "/React-Update-Portfolio-2.0/static/js/main.e5e06a36.chunk.js",
+    "main.js.map": "/React-Update-Portfolio-2.0/static/js/main.e5e06a36.chunk.js.map",
     "runtime-main.js": "/React-Update-Portfolio-2.0/static/js/runtime-main.ae09c579.js",
     "runtime-main.js.map": "/React-Update-Portfolio-2.0/static/js/runtime-main.ae09c579.js.map",
-    "static/js/2.942ed379.chunk.js": "/React-Update-Portfolio-2.0/static/js/2.942ed379.chunk.js",
-    "static/js/2.942ed379.chunk.js.map": "/React-Update-Portfolio-2.0/static/js/2.942ed379.chunk.js.map",
+    "static/js/2.3b4a594a.chunk.js": "/React-Update-Portfolio-2.0/static/js/2.3b4a594a.chunk.js",
+    "static/js/2.3b4a594a.chunk.js.map": "/React-Update-Portfolio-2.0/static/js/2.3b4a594a.chunk.js.map",
     "index.html": "/React-Update-Portfolio-2.0/index.html",
     "static/css/main.fad79206.chunk.css.map": "/React-Update-Portfolio-2.0/static/css/main.fad79206.chunk.css.map",
-    "static/js/2.942ed379.chunk.js.LICENSE.txt": "/React-Update-Portfolio-2.0/static/js/2.942ed379.chunk.js.LICENSE.txt",
+    "static/js/2.3b4a594a.chunk.js.LICENSE.txt": "/React-Update-Portfolio-2.0/static/js/2.3b4a594a.chunk.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.86ccea8a.worker.js": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.86ccea8a.worker.js",
+    "static/js/pdf.worker.entry.86ccea8a.worker.js.LICENSE.txt": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.86ccea8a.worker.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.86ccea8a.worker.js.map": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.86ccea8a.worker.js.map",
     "static/media/Bear.efdde29a.svg": "/React-Update-Portfolio-2.0/static/media/Bear.efdde29a.svg",
-    "static/media/CB.ec76c143.pdf": "/React-Update-Portfolio-2.0/static/media/CB.ec76c143.pdf",
+    "static/media/Claire Bohlen.68ae50f6.pdf": "/React-Update-Portfolio-2.0/static/media/Claire Bohlen.68ae50f6.pdf",
     "static/media/svg-10.483fff52.svg": "/React-Update-Portfolio-2.0/static/media/svg-10.483fff52.svg",
     "static/media/svg-11.a416ef44.svg": "/React-Update-Portfolio-2.0/static/media/svg-11.a416ef44.svg",
-    "static/media/svg-12.c9acc4f5.svg": "/React-Update-Portfolio-2.0/static/media/svg-12.c9acc4f5.svg",
+    "static/media/svg-13.c618f625.svg": "/React-Update-Portfolio-2.0/static/media/svg-13.c618f625.svg",
+    "static/media/svg-14.f640f008.svg": "/React-Update-Portfolio-2.0/static/media/svg-14.f640f008.svg",
+    "static/media/svg-15.795684fd.svg": "/React-Update-Portfolio-2.0/static/media/svg-15.795684fd.svg",
     "static/media/svg-7.7255997b.svg": "/React-Update-Portfolio-2.0/static/media/svg-7.7255997b.svg",
     "static/media/svg-8.svg": "/React-Update-Portfolio-2.0/static/media/svg-8.153304d3.svg",
     "static/media/svg-9.c8530967.svg": "/React-Update-Portfolio-2.0/static/media/svg-9.c8530967.svg",
@@ -22,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ae09c579.js",
-    "static/js/2.942ed379.chunk.js",
+    "static/js/2.3b4a594a.chunk.js",
     "static/css/main.fad79206.chunk.css",
-    "static/js/main.a84ce1e5.chunk.js"
+    "static/js/main.e5e06a36.chunk.js"
   ]
 }
