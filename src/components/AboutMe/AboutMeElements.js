@@ -74,7 +74,7 @@ export const Colum2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
-    margin-top: -70px;
+    margin-top: -120px;
 `
 
 export const TextWrapper = styled.div `

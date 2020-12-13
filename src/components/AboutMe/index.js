@@ -63,35 +63,35 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                 <ul>
                                     <IconList>
                                         <IconStyle>
-                                        <SiReact style={{color: 'black', size: '2rem;'}}/></IconStyle>
+                                        <SiReact/></IconStyle>
                                         <IconStyle>
-                                        <SiJavascript style={{color: 'black'}}/></IconStyle>
+                                        <SiJavascript/></IconStyle>
                                         <IconStyle>
-                                        <SiMongodb style={{color: 'black'}}/></IconStyle>
+                                        <SiMongodb/></IconStyle>
                                         <IconStyle>
-                                        <SiMysql style={{color: 'black'}}/></IconStyle>
+                                        <SiMysql/></IconStyle>
                                         <IconStyle>
-                                        <SiCss3 style={{color: 'black'}}/></IconStyle>
+                                        <SiCss3/></IconStyle>
                                         <IconStyle>
-                                        <SiJquery style={{color: 'black'}}/></IconStyle>
+                                        <SiJquery/></IconStyle>
                                         <IconStyle>
-                                        <SiAdobeillustrator style={{color: 'black'}}/></IconStyle>
+                                        <SiAdobeillustrator/></IconStyle>
                                         <IconStyle>
-                                        <SiAdobephotoshop style={{color: 'black'}}/></IconStyle>
+                                        <SiAdobephotoshop/></IconStyle>
                                         <IconStyle>
-                                        <SiAdobexd style={{color: 'black'}}/></IconStyle>
+                                        <SiAdobexd/></IconStyle>
                                         <IconStyle>
-                                        <SiAdobepremiere style={{color: 'black'}}/></IconStyle>
+                                        <SiAdobepremiere/></IconStyle>
                                         <IconStyle>
-                                        <SiHeroku style={{color: 'black'}}/></IconStyle>
+                                        <SiHeroku/></IconStyle>
                                         <IconStyle>
-                                        <DiNodejs style={{color: 'black'}}/></IconStyle>
+                                        <DiNodejs/></IconStyle>
                                         <IconStyle>
-                                        <SiAdobexd style={{color: 'black'}}/></IconStyle>
+                                        <SiAdobexd/></IconStyle>
                                         <IconStyle>
-                                        <AiFillHtml5 style={{color: 'black'}}/></IconStyle>
+                                        <AiFillHtml5/></IconStyle>
                                         <IconStyle>
-                                        <AiFillGithub style={{color: 'black'}}/></IconStyle>
+                                        <AiFillGithub/></IconStyle>
 
                                         {/* <AiFillHtml5 style={{color: 'black'}}/> */}
                                     
