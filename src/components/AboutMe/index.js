@@ -14,7 +14,9 @@ Img,
 TopLine,
 Heading,
 SubTitle,
-IconList
+SubTitle2,
+IconList,
+
 
 
 } from "./AboutMeElements"
@@ -60,7 +62,7 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                 <ul>
                                     <IconList>
                                    
-                                        <SiReact style={{color: 'black', marginRight: "20px;"}}/>
+                                        <SiReact style={{color: 'black', size: '2rem;'}}/>
                                         <SiJavascript style={{color: 'black'}}/>
                                         <SiMongodb style={{color: 'black'}}/>
                                         <SiMysql style={{color: 'black'}}/>
@@ -101,7 +103,7 @@ const AboutSection = ({ dark, dark2, primary}) => {
                             </TextWrapper>
                         </Colum1>
                         <Colum2>
-                        <SubTitle> When I’m not designing or developing, I enjoy helping local musicians grow their online presence on social media. Photography, photoshop, video editing & illustrator are some of the skills I put to use when working with musicians. In my free time, I enjoy playing the piano, snowboarding, or reading up on the latest trends in the tech world.</SubTitle>
+                        <SubTitle2> When I’m not designing or developing, I enjoy helping local musicians grow their online presence on social media. Photography, photoshop, video editing & illustrator are some of the skills I put to use when working with musicians. In my free time, I enjoy playing the piano, snowboarding, or reading up on the latest trends in the tech world.</SubTitle2>
                             <ImgWrap>
                             
                                 
