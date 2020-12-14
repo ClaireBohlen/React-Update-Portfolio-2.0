@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import {HashRouter as Router, Route} from "react-router-dom"
 import Resume from "./components/Resume";
 //Changed Browser Router to Hash Router becuase Github pages 404
-
+ 
  
 
 function App() {
