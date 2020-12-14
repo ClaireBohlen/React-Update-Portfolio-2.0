@@ -1,13 +1,13 @@
 import React from 'react';
 import Logo from '../../images/Bear.svg'
-// import Modal from '../Modal'
+
 import {
     FooterContainer,
     FooterWrap,
     FooterLinksContainer,
     FooterLinkItems,
-    FooterLinkTitle,
-    FooterLink,
+    // FooterLinkTitle,
+    // FooterLink,
     SocailMediaWrap,
     FooterLinksWrapper,
     SocialLogo,
@@ -61,7 +61,7 @@ const Footer = () => {
                             <SocialIconLink href='https://codepen.io/clairebohlen' target='_blank' aria-label='CodePen'>
                                 <FaCodepen />
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+                            <SocialIconLink href='https://twitter.com/polarbear4321_' target='_blank' aria-label='Twitter'>
                                 <FaTwitter />
                             </SocialIconLink>
                             
