@@ -125,7 +125,7 @@ const Projects = () => {
             Full Stack Progressive Web Budget Tracking App.
           </ProjectsP>
           <ProjectsP2>
-            Full Stack CRUD Online Note Taking Application.
+            
           </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/online-offline-budget-tracker-PWA' target='_blank' aria-label='CodePen'>
