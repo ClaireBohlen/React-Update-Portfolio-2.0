@@ -75,6 +75,14 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                         <IconStyle>
                                         <SiJquery/></IconStyle>
                                         <IconStyle>
+                                        <SiHeroku/></IconStyle>
+                                        <IconStyle>
+                                        <DiNodejs/></IconStyle>
+                                        <IconStyle>
+                                        <AiFillHtml5/></IconStyle>
+                                        <IconStyle>
+                                        <AiFillGithub/></IconStyle>
+                                        <IconStyle>
                                         <SiAdobeillustrator/></IconStyle>
                                         <IconStyle>
                                         <SiAdobephotoshop/></IconStyle>
@@ -83,15 +91,8 @@ const AboutSection = ({ dark, dark2, primary}) => {
                                         <IconStyle>
                                         <SiAdobepremiere/></IconStyle>
                                         <IconStyle>
-                                        <SiHeroku/></IconStyle>
-                                        <IconStyle>
-                                        <DiNodejs/></IconStyle>
-                                        <IconStyle>
                                         <SiAdobexd/></IconStyle>
-                                        <IconStyle>
-                                        <AiFillHtml5/></IconStyle>
-                                        <IconStyle>
-                                        <AiFillGithub/></IconStyle>
+                                        
 
                                         {/* <AiFillHtml5 style={{color: 'black'}}/> */}
                                     

@@ -60,7 +60,7 @@ export const Colum1 = styled.div `
 export const IconStyle = styled.a`
       color: #000000;
       font-size: 25px;
-      margin-right: 1px;
+      padding-right: 5px;
       
       
       &:hover{
@@ -74,7 +74,7 @@ export const Colum2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
-    margin-top: -120px;
+    margin-top: -110px;
 `
 
 export const TextWrapper = styled.div `
