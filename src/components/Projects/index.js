@@ -83,7 +83,7 @@ const Projects = () => {
             Full stack workout tracker App.
           </ProjectsP>
           <ProjectsP2>
-            Full Stack CRUD Online Note Taking Application.
+          JavaScript, Node.js, MongoDB, Express, CSS.
           </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/fitnessTracker' target='_blank' aria-label='CodePen'>
@@ -125,7 +125,7 @@ const Projects = () => {
             Full Stack Progressive Web Budget Tracking App.
           </ProjectsP>
           <ProjectsP2>
-            
+           JavaScript, Node.js, Express, MongoDB, Mongoose. 
           </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/online-offline-budget-tracker-PWA' target='_blank' aria-label='CodePen'>
