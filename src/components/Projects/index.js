@@ -3,7 +3,6 @@ import Icon1 from '../../images/svg-8.svg';
 import Icon2 from '../../images/svg-9.svg';
 import Icon3 from '../../images/svg-10.svg';
 import Icon4 from '../../images/svg-11.svg';
-// import Icon5 from '../../images/svg-12.svg';
 import Icon6 from '../../images/svg-13.svg';
 import Icon7 from '../../images/svg-14.svg';
 
@@ -63,7 +62,7 @@ const Projects = () => {
             Mern Stack Activity Generator.
           </ProjectsP>
           <ProjectsP2>
-            React, NodeJs, MongoDB, Express.
+            React, NodeJs, MongoDB, Express, Mongoose.
           </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/MasonJar' target='_blank' aria-label='CodePen'>
@@ -102,10 +101,10 @@ const Projects = () => {
           <ProjectsIcon src={Icon3} />
           <ProjectsH2>Park Finder</ProjectsH2>
           <ProjectsP>
-            Third Party API National Park Finder.
+            Server-Side API National Park Finder.
           </ProjectsP>
           <ProjectsP2>
-            Full Stack CRUD Online Note Taking Application.
+            JavaScript, CSS, HTML, National Park API.
           </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/dubootcampProjectOne' target='_blank' aria-label='CodePen'>
@@ -153,7 +152,7 @@ const Projects = () => {
             Full Stack CRUD Online Note Taking Application.
           </ProjectsP>
           <ProjectsP2>
-            Full Stack CRUD Online Note Taking Application.
+            JavaScript, Node.js, Express, CSS, HTML, JSON.
           </ProjectsP2>
           <ProjectsSecondP>
             <DeployLinkIcon1 href='https://github.com/ClaireBohlen/noteTaker' target='_blank' aria-label='CodePen'>
