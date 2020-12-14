@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ResumePdf from '../../pdfs/Claire Bohlen.pdf'
+import ResumePdf from '../../pdfs/Claire Bohlen Resume.pdf'
 import { Document, Page } from 'react-pdf/dist/umd/entry.webpack';
 
 
