@@ -53,46 +53,8 @@ export default class MyForm extends React.Component {
         {/* </Container> */}
       </>
 
-
-
-
-
-
-
-
-
-        // <form
-        //   onSubmit={this.submitForm}
-        //   action="https://formspree.io/f/mjvpaarg"
-        //   method="POST"
-        // >
-        //     {/* <!-- add your custom form HTML here --> */}
-        //   <label>Name:</label>
-        //   <input type="name" name="name" />
-        //   <label>Email:</label>
-        //   <input type="email" name="email" />
-        //   <label>Message:</label>
-        //   <input type="text" name="message" />
-        //   {status === "SUCCESS" ? <p>Thanks!</p> : <Button>Submit</Button>}
-        //   {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        // </form>
-
-
-
       );
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
   
     submitForm(ev) {
