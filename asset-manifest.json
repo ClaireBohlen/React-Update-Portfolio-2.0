@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/React-Update-Portfolio-2.0/static/css/main.fad79206.chunk.css",
-    "main.js": "/React-Update-Portfolio-2.0/static/js/main.96806126.chunk.js",
-    "main.js.map": "/React-Update-Portfolio-2.0/static/js/main.96806126.chunk.js.map",
+    "main.js": "/React-Update-Portfolio-2.0/static/js/main.9efad20c.chunk.js",
+    "main.js.map": "/React-Update-Portfolio-2.0/static/js/main.9efad20c.chunk.js.map",
     "runtime-main.js": "/React-Update-Portfolio-2.0/static/js/runtime-main.ae09c579.js",
     "runtime-main.js.map": "/React-Update-Portfolio-2.0/static/js/runtime-main.ae09c579.js.map",
-    "static/js/2.3b4a594a.chunk.js": "/React-Update-Portfolio-2.0/static/js/2.3b4a594a.chunk.js",
-    "static/js/2.3b4a594a.chunk.js.map": "/React-Update-Portfolio-2.0/static/js/2.3b4a594a.chunk.js.map",
+    "static/js/2.d66446df.chunk.js": "/React-Update-Portfolio-2.0/static/js/2.d66446df.chunk.js",
+    "static/js/2.d66446df.chunk.js.map": "/React-Update-Portfolio-2.0/static/js/2.d66446df.chunk.js.map",
     "index.html": "/React-Update-Portfolio-2.0/index.html",
     "static/css/main.fad79206.chunk.css.map": "/React-Update-Portfolio-2.0/static/css/main.fad79206.chunk.css.map",
-    "static/js/2.3b4a594a.chunk.js.LICENSE.txt": "/React-Update-Portfolio-2.0/static/js/2.3b4a594a.chunk.js.LICENSE.txt",
-    "static/js/pdf.worker.entry.86ccea8a.worker.js": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.86ccea8a.worker.js",
-    "static/js/pdf.worker.entry.86ccea8a.worker.js.LICENSE.txt": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.86ccea8a.worker.js.LICENSE.txt",
-    "static/js/pdf.worker.entry.86ccea8a.worker.js.map": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.86ccea8a.worker.js.map",
+    "static/js/2.d66446df.chunk.js.LICENSE.txt": "/React-Update-Portfolio-2.0/static/js/2.d66446df.chunk.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.2e841a54.worker.js": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.2e841a54.worker.js",
+    "static/js/pdf.worker.entry.2e841a54.worker.js.LICENSE.txt": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.2e841a54.worker.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.2e841a54.worker.js.map": "/React-Update-Portfolio-2.0/static/js/pdf.worker.entry.2e841a54.worker.js.map",
     "static/media/Bear.efdde29a.svg": "/React-Update-Portfolio-2.0/static/media/Bear.efdde29a.svg",
     "static/media/Claire Bohlen Resume.0b87b4ec.pdf": "/React-Update-Portfolio-2.0/static/media/Claire Bohlen Resume.0b87b4ec.pdf",
     "static/media/svg-10.483fff52.svg": "/React-Update-Portfolio-2.0/static/media/svg-10.483fff52.svg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ae09c579.js",
-    "static/js/2.3b4a594a.chunk.js",
+    "static/js/2.d66446df.chunk.js",
     "static/css/main.fad79206.chunk.css",
-    "static/js/main.96806126.chunk.js"
+    "static/js/main.9efad20c.chunk.js"
   ]
 }
